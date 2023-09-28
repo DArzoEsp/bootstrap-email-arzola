@@ -1,0 +1,7 @@
+.container-fluid {
+    background-color: grey;
+}
+
+.col-sm{
+    border: solid black 1px;
+}
