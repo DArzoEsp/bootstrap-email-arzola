@@ -1,152 +1,18 @@
-.container {
-  background-color: rgb(167, 167, 167);
-  border: solid black 1px;
-  width: 100vw;
-  height: 100vh;
-}
 
-.navigation {
-  height: 75vh;
-}
-
-.navigation a {
-  display: block;
-  background-color: rgb(67, 147, 140);
-  color: black;
-  padding: 20px 10px;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.navigation a:hover {
-  background-color: rgba(242, 187, 7, 0.651) ;
-  color: black;
-}
-
-.navigation a.active {
-  background-color: rgb(242, 187, 7);
-  color: rgb(16, 28, 59);
-}
-.navigation a.email-active {
-  display: none;
-}
-
-.navigation input[type=text] {
-  padding: 6px;
-  margin-bottom: 3px;
-  border: none;
-  font-size: 16px;
-  width: 12vw;
-}
-
-.notifications {
-  height: 75vh;
-}
-
-.notifications .row{
-  background-color: rgb(67, 147, 140);
-  margin-bottom: 10px;
-  border-radius: 15px;
-  border: solid rgb(65, 72, 92) 2px;
-}
 
 .email-description {
   background-color: rgb(255, 255, 255);
   border: solid rgb(65, 72, 92) 2px;
-  border-radius: 15px;
-  height: 75vh;
 }
 
-h5 {
+p {
   overflow: hidden;
   font-family: 'Helvetica';
   font-weight: 200;
 }
 
-textarea {
-  height: auto;
-}
-
-.reply {
-  position: absolute;
-  bottom: 2vh;
-  left: 5vw;
-  width: 30vw;
-  height: 5vh;
-}
-
-hr {
-  margin-top: -20px;
-}
-
-.nav2 {
-  display: none;
-}
-
-@media screen and (max-width: 1024px) {
-  .navigation {
-    border: solid black 1px;
-  }
-
-  .navigation a {
-    display: block;
-    float: left;
-    background-color: rgb(67, 147, 140);
-    color: black;
-    padding: 14px 20px;
-  }
-
-  .col-2 {
-    width: 100vw;
-    height: 6vh;
-  }
-
-  .notifications {
-    border: solid black 1px;
-  }
-
-  .email-description {
-    border: solid black 1px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navigation {
-    display: block;
-    width: 100vw;
-    height: 28.25vh;
-    border: solid black 1px;
-  }
-
-  .navigation a {
-    float: none;
-  }
-
-  .email-active {
-    display: block;
-  }
-
-  .notifications {
-    display: none;
-  }
-
-  .email-description {
-    width: 90vw;
-    height: 50vh;
-  }
-
-  .email-reply {
-    height: 25vh;
-    width: 100%;
-  }
-
-  .navigation input[type="text"] {
-    width: 88vw;
-    border-radius: 5px;
-  }
-
-  .reply {
-    left: 2vw;
-    width: 90vw;
-  }
+.notifications {
+  border: solid black 2px;
+  background: rgb(93, 112, 89);
+  margin-bottom: 10px;
 }
