@@ -1,8 +1,19 @@
+html, body {
+  height: 100%;
+}
 
+.main-container {
+  background-color: rgb(65, 72, 92);
+}
+
+.main-nav {
+  border-radius: 0px 0px 10px 10px;
+}
 
 .email-description {
-  background-color: rgb(255, 255, 255);
-  border: solid rgb(65, 72, 92) 2px;
+  border: solid black 2px;
+  border-radius: 5px 5px 15px 15px;
+  background-color: rgba(243, 237, 205, 0.619);
 }
 
 p {
@@ -13,6 +24,7 @@ p {
 
 .notifications {
   border: solid black 2px;
-  background: rgb(93, 112, 89);
+  border-radius: 5px 5px 15px 15px;
+  background-color: rgb(93, 112, 89);
   margin-bottom: 10px;
 }
